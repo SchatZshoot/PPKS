@@ -1,0 +1,745 @@
+@font-face {
+    font-family: Futura Bold;
+    src: url(Asset/FUTURA75BOLD.TTF);
+}
+
+@font-face {
+    font-family: FuturaBT;
+    src: url(Asset/FuturaBT-Book.otf);
+}
+@font-face {
+    font-family: FuturaHvBT;
+    src: url(Asset/futura-heavy-bt.ttf);
+}
+body{
+    font-family: FuturaBT;
+  }
+
+nav{
+    width: 100%;   
+    background-color: #091B34;
+    position: sticky;
+    top: 0;
+    /* Set the left position to 0 */
+    left: 0;
+    z-index: 1000;
+    display: inline-block;
+    float: none;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.logo-image{
+    width: 70%;
+}
+.m-nav{
+    margin-left: 5%;
+}
+
+.m-l{
+    margin-left: 5%;
+}
+
+.m-t{
+    margin-top: 10%;
+}
+.m-r{
+    margin-right:5%;
+}
+
+.m-b{
+    margin-bottom: 10%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    align-items: center;
+}
+.text{
+    margin-right: 30px;
+    text-align: center;
+}
+.text-b{
+    margin-right: 30px;
+    text-align: center;
+}
+nav ul li{
+    float: left;
+    display: block;
+
+}
+nav ul li a{
+    display: block;
+    color: white;
+    padding: 40px 16px;
+    text-decoration: none;
+    font-family: FuturaHvBT;
+    font-size: 32px;
+
+}
+.background{
+    background-image: url(Asset/BG\ LOGIN.jpg);
+    background-size: cover;
+    height:90vh;
+    width: 100%;
+}
+
+
+
+.judul{
+    background-color: #ffffff;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    font-family: FuturaHvBT;
+    font-size: 60px;
+    color: #091B34;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    padding: 10px;
+    max-width: fit-content;
+  }
+
+.header{
+    font-size: 80px;
+    color: #091B34;
+    top: 35%;
+    left: 5%;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+.materi{
+    background-color: #091B34;
+    color: #ffffff;
+    padding: 40px 20px 40px 20px;
+}
+p{
+    font-family: FuturaBT;
+    font-size: 36px;
+    color: white;
+    margin-top: 30px;
+}
+
+.linear{
+    background: linear-gradient(0deg, #091B34 0%, #152139 100%);
+    height: 100%; 
+}
+
+h1{
+    font-family: Futura bold;
+    font-size: 36px;
+}
+.material-bg{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    min-width: 50px;
+}
+.vl {
+    border-left: 2px solid #ffffff;
+    height: 100%;
+    margin-right: 60px;
+  }
+  .hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+  }
+
+
+.text:hover{
+    color: #091B34;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    transition: 0.25s;
+
+}
+.text:active{
+    color: #091B34;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+.active{
+    color: #091B34;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 10px;
+    .text:hover{
+        display: none;
+    }
+}
+.footer-design{
+    background-color: #152139;
+    background-size: cover;
+    color: white;
+    padding: 70px 0px;
+}
+.footer-design2{
+    background-color: #131d33;
+    background-size: cover;
+    color: white;
+    padding: 5px 0px;
+    height: fit-content;
+}
+
+.text-footer{
+    font-size: 32px;
+    color: white;
+    text-decoration:none;
+    margin-top: 60px;
+    font-family: FuturaHvBT;
+}
+
+.text-under{
+    font-family: FuturaBT;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.log-out{
+    padding: 20px 40px;
+    background-color: #A49E23;
+    color: white;
+    border: none;
+    font-family: Futura Bold;
+    border-radius: 10px;
+    font-size: 26px;
+}
+
+.log-out:hover{
+    background-color: #d4cc27;
+    
+}
+
+.box-ujian{
+    background-color: white;
+    border-radius: 15px;
+    display: inline-block;
+    background-position: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: #091B34;
+    margin: 150px 0px;
+    max-width: 200%;
+    min-width: 100px;
+ 
+}
+
+
+.ujian{
+    color: #091B34;
+}
+
+.header-ujian{
+    font-size: 60px;
+}
+
+.radio-section{
+   display: grid;
+   flex-direction: column;
+     margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 1.5;
+}
+.radio-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+.radio{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.radio-button{
+    display: none;
+}
+.radio-div{
+    width: 1.25em;
+    height: 1.25em;
+    border: 5px solid #091B34;
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.radio-div::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: block;
+    background: #091B34;
+    transform: scale(0);
+    transition: transform 0.15s;
+
+}
+
+.radio-button:checked + .radio-div::after{
+    transform: scale(1);
+
+}
+.card-desain{
+    width: 447px;
+  height: 587px;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+-webkit-box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+-moz-box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+  
+}
+
+.card-judul{
+    background-color: white;
+    color: #091B34;
+    font-family: Futura Bold;
+    width: fit-content;
+    padding: 0px 5px;
+    margin-top: 65%;
+    margin-bottom: 5%;
+    h1{
+        font-size: 65px;
+    }
+}
+
+.card-subjudul{
+    background-color: white;
+    color: #091B34;
+    font-family: Futura Bold;
+    width: fit-content;
+    padding: 0px 5px;
+    font-size: 34px;
+}
+
+.card-desain:hover {
+    width: 501px;
+  height: 658px;
+  transition: 130ms;
+  
+  .card-subjudul{
+    transition: 130ms;
+    font-size: 38px;
+  }
+  .card-judul{
+    font-size: large;
+    transition: 130ms;
+    h1{
+        font-size: 70px;
+        transition: 130ms;
+    }
+  }
+  
+}
+
+
+.materi-bg{
+    background-image: linear-gradient(0deg, rgba(9,27,52,1) 0%, rgba(74,37,103,0) 100%), url(Asset/WWW.webp);;
+    padding: 5% 0px;
+    background-size: cover;
+}
+
+.card-desain-sm{
+    width: 388px;
+  height: 510px;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+-webkit-box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+-moz-box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+  
+}
+
+.card-judul-sm{
+    background-color: white;
+    color: #091B34;
+    font-family: Futura Bold;
+    width: fit-content;
+    padding: 0px 5px;
+    margin-top: 65%;
+    margin-bottom: 5%;
+    h1{
+        font-size: 55px;
+    }
+}
+
+.card-subjudul-sm{
+    background-color: white;
+    color: #091B34;
+    font-family: Futura Bold;
+    width: fit-content;
+    padding: 0px 5px;
+    font-size: 29px;
+}
+
+.card-desain-sm:hover{
+    width: 426px;
+  height: 560px;
+  transition: 130ms;
+  .card-subjudul-sm{
+    transition: 130ms;
+    font-size: 32px;
+  }
+  .card-judul-sm{
+    font-size: large;
+    transition: 130ms;
+    h1{
+        font-size: 60px;
+        transition: 130ms;
+    }
+  }
+}
+
+
+.background-materi{
+    background-size: cover;
+    height:60vh;
+    width: 100%;
+    overflow: hidden;
+    background-position: center;
+}
+
+.judul-materi{
+    color: #ffffff;
+    font-size: 50px;
+    position: relative;
+    font-family: FuturaHvBT;
+}
+.sticky-column {
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  }
+.sumber{
+    font-size: 20px;
+    font-family: FuturaBT;
+    color: rgb(221, 221, 221);
+}
+.img-materi{
+    display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 50%;
+}
+.img-materi:active{
+    width: 80%;
+}
+
+#myImage {
+    transition: transform 1s ease;
+  }
+  
+#myImage.enlarged {
+    transform: scale(2);
+  }
+.previous, .next{
+    font-size: 30px;
+    font-family: FuturaHvBT;
+    text-decoration: none;
+    color: #091B34;
+}
+
+    
+input{
+    background-color: rgb(224, 224, 224);
+    outline: #091B34;
+    padding: 30px 60px 30px 60px;
+    border-radius: 15px;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+  }
+  input::placeholder {
+    
+  }
+
+  input:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+.responsive{
+    margin: 5% 0;
+}
+@media screen and (max-width:1368px) {
+
+    .judul{
+        font-size: 32px;
+    }
+    .judul-materi{
+        font-size: 28px;
+    }
+
+    .header{
+        font-size: 42px; 
+        top: 35%;
+    }
+    nav ul li a{
+        font-size: 15px;
+        padding: 10px 12px;
+    }
+    li{
+        margin-left: 10px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    .sumber{
+        font-size: 12px;
+    }
+    .material-bg{
+        width: 20px;
+        margin-right: 10px;
+    }
+
+    .subJudul{
+        font-size: 24px;
+    }
+
+    .logo-image{
+        width: 50%;
+    }
+
+    .footer-design{
+        padding: 15px 0px;
+    }
+
+    .footer-design2{
+        padding: 1px 0px;
+    }
+
+    .text-footer{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .text-under{
+        font-size: 12px;
+    }
+
+    .log-out{
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .radio-section{
+        font-size: 18px;
+    }
+
+    .header-ujian{
+        font-size: 32px;
+    }
+    .radio-div{
+        border: 2px solid #091B34;
+        width: 1em;
+        height: 1em;
+        padding: 1px;
+    }
+    .radio-text{
+        font-size: 14px;
+    }
+
+    .box-ujian{
+        margin: 50px 0px;
+        padding: 60px 80px;
+        max-width: fit-content;
+    }
+    .previous, .next{
+        font-size: 18px;
+    }
+
+    input{
+        padding: 15px 40px 15px 40px;
+        font-size: 18px;
+    }
+
+    .card-desain-sm{
+        width: 180px;
+        height: 250px;
+    }
+    .card-judul-sm{
+        h1{
+            font-size: 20px;
+        }
+    }
+    .card-subjudul-sm{
+        font-size: 14px;
+    }
+    .card-desain-sm:hover{
+        width: 200px;
+        height: 270px;
+        .card-judul-sm{
+            h1{
+                font-size: 24px;
+            }
+        }
+        .card-subjudul-sm{
+            font-size: 18px;
+        }
+    }
+
+    .card-desain{
+        width: 200px;
+        height: 270px;
+    }
+    .card-judul{
+        h1{
+            font-size: 30px;
+        }
+    }
+    .card-subjudul{
+        font-size: 14px;
+
+    }
+    .card-desain:hover{
+        width: 230px;
+        height: 300px;
+        .card-judul{
+            h1{
+                font-size: 36px;
+            }
+        }
+        .card-subjudul{
+            font-size: 17px;
+        }
+    }
+    .responsive{}
+}   
+
+@media screen and (max-width:468px){
+    .logo-image{
+        display: none;
+    }
+    .text, .text-b{
+        font-size: 7px;
+        margin-right: 5px;
+
+        
+
+    }
+    .judul{
+        font-size: 20px;
+
+    }
+
+    .header{
+        font-size:20px;
+        top: 120px;
+    }
+
+    p{
+        font-size: 10px;
+        margin-right: 5%;
+    }
+
+    .background{
+        height: 300px;
+
+
+    }
+    .m-nav{
+        margin-right: 5%;
+        margin-left: 0%;
+    }
+    .log-out{
+        font-size: 5px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .subJudul{
+        font-size: 10px;
+
+    }
+    .col-lg-3{
+        display: none;
+
+    }
+
+    .col-lg-2, .m-l, .align-items-center{
+        width: 70%;
+    }
+
+    .footer-design2, .text-under{
+        font-size: 5px;
+        padding: 1%;
+        
+    }
+    .judul{
+        font-size: 14px;
+    }
+    .card-desain-sm{
+        width: 100px;
+        height: 140px;
+    }
+    .card-judul-sm{
+        h1{
+            font-size: 14px;
+        }
+    }
+    .card-subjudul{
+        font-size: 10px;
+    }
+    .card-desain{
+        width: 120px;
+        height: 160px;
+    }
+    .card-judul{
+        h1{
+            font-size: 14px;
+        }
+    }
+    .card-subjudul-sm{
+        font-size: 10px;
+    }
+    
+    .previous, .next{
+        font-size: 12px;
+        
+    }
+
+    input{
+        font-size: 14px;
+        display: flex;
+    }
+    .header-ujian{
+        font-size: 24px;
+    }
+    .radio-text{
+        font-size: 10px;
+    }
+    .logo-footer{
+        display: none;
+    }
+
+    .materi-bg{
+        background-size: cover;
+    }
+    
+}
+
+
+
+
+
+
+

@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Futura Bold;
+    src: url(Asset/FUTURA75BOLD.TTF);
+}
+
+@font-face {
+    font-family: FuturaBT;
+    src: url(Asset/FuturaBT-Book.otf);
+}
+
+.backgroundLogin{
+    background-image: url(Asset/Frame\ 15.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body{
+  font-family: FuturaBT;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+input{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 30px 60px 30px 60px;
+    border-radius: 15px;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0px;
+    display: block;
+    overflow: hidden
+  }
+  input::placeholder {
+    
+  }
+
+  input:focus{
+    background-color: rgb(255, 255, 255);
+}
+p{
+    font-family: FuturaHvBT;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+h1{
+    font-family: Futura Bold;
+    font-size: 60px;
+}
+
+button{
+    padding: 20px 90px 20px 90px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: none;
+    font-family: Futura Bold;
+    color: white;
+    background-color: #A49E23;
+    font-size: 32px;
+    width: 100%;
+}
+
+button:active{
+    background-color: #cfc722;
+}
+
+button:hover{
+    background-color: #cfc722;
+}
+
+.bag{
+    background-color: #091B34;
+    color: white;
+    border-radius: 20px;
+    padding: 80px 120px 80px 120px;
+    box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+-webkit-box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+-moz-box-shadow: 5px 10px 17px -9px rgba(0,0,0,0.53);
+}
+
+
+ul{
+    background-color: #091B34;
+    overflow: hidden;
+
+}
+
+.nav-color{
+    display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  transition: background-color 0.2s ease;
+  font-family: FuturaBT;
+}
+
+.bgHome{
+    background-image: url(Asset/BG\ LOGIN.jpg);
+    width: 100%;
+}
+.error{
+    text-align: end;
+    font-size: 18px;
+    color: red;
+}
+
+@media screen and (max-width:1368px) {
+    .bag{
+        padding: 60px 50px 60px 50px
+    }
+
+    input{
+        padding: 15px 30px 15px 30px;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    button{
+        padding: 15px 30px 15px 30px;
+        font-size: 12px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .bag{
+        padding: 50px 70px 50px 70px;
+    }
+    
+    button, input{
+        border-radius: 10px;
+    }
+    
+}
+
+
